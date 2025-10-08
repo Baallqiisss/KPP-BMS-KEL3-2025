@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KPP BMS — Black & Red</title>
+    <meta name="description" content="KPP BMS — portfolio" />
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <!-- Top centered nav pill -->
+    <div class="nav-pill-wrap">
+      <div class="nav-pill container">
+        <div class="pill-left">KPP BMS</div>
+        <nav class="pill-nav" aria-label="Primary">
+          <a href="#home" class="pill-link">Home</a>
+          <a href="#portfolio" class="pill-link">Project</a>
+          <a href="#contributors" class="pill-link">Contributor</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <main id="home">
+      <section class="hero hero-dark">
+        <div class="hero-inner container">
+          <div class="hero-left">
+            <h1 class="hero-heading">
+              Basic Media
+              <br>
+              <span class="hero-accent">Schooling</span>
+            </h1>
+            <a href="#portfolio" class="hero-link">VIEW PROJECTS</a>
+          </div>
+          <div class="hero-right">
+            <p class="hero-desc">BMS (Basic Media Schooling) adalah program pembelajaran praktis yang fokus mengembangkan kemampuan di dunia digital. Peserta akan belajar mulai dari desain UI/UX menggunakan Figma, pembuatan konten kreatif, pengembangan web, hingga produksi video, sehingga siap berkarya di berbagai platform media.</p>
+          </div>
+        </div>
+        <div class="decor decor-left">👌</div>
+        <div class="decor decor-right">🤘</div>
+      </section>
+
+      <section id="portfolio" class="section-hero">
+        <div class="section-hero-inner container">
+          <h2 class="section-hero-title">Portfolio</h2>
+          <p class="section-hero-lead muted"></p>
+          <div class="section-hero-card">
+            <div class="cards">
+              <article class="card">
+                <div class="video-wrap">
+                  <video controls poster="/media/tumbnail.png" preload="metadata" style="width:100%; height:100%; display:block;">
+                    <source src="/media/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <h3>Project: Video Promotion</h3>
+                <p class="muted">penugasan video promosi untuk media sosial, disini kami mengambil tema terkait promosi kegiatan BMS</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contributors" class="section-hero">
+        <div class="section-hero-inner container">
+          <h2 class="section-hero-title">Contributors</h2>
+          <p class="section-hero-lead muted">The team behind these projects.</p>
+          <div class="section-hero-card">
+            <ul class="contributors">
+              <li class="contrib">
+                <figure>
+                  <img class="contrib-avatar" src="/media/panesa.jpg" alt="Gilang Ardana">
+                  <figcaption>
+                    <span class="contrib-name">Kanafira Vanesha Putri</span>
+                    <span class="contrib-role">5027241010</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="contrib">
+                <figure>
+                  <img class="contrib-avatar" src="/media/hanaa.jpg" alt="Sinta Putri">
+                  <figcaption>
+                    <span class="contrib-name">Naila Raniyah Hanan</span>
+                    <span class="contrib-role">5027241078</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="contrib">
+                <figure>
+                  <img class="contrib-avatar" src="/media/raraa.jpg" alt="Raka Pratama">
+                  <figcaption>
+                    <span class="contrib-name">Zahra Hafizhah</span>
+                    <span class="contrib-role">	5027241121</span>
+                  </figcaption>
+                </figure>
+              </li>
+                <li class="contrib">
+                  <figure>
+                    <img class="contrib-avatar" src="/media/pikaa.jpeg" alt="Gilang Ardana">
+                    <figcaption>
+                      <span class="contrib-name">Fika Arka Nuriyah</span>
+                      <span class="contrib-role">5027241071</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="contrib">
+                  <figure>
+                    <img class="contrib-avatar" src="/media/runa.jpg" alt="Sinta Putri">
+                    <figcaption>
+                      <span class="contrib-name">Naruna Vicrantyo Putra G</span>
+                      <span class="contrib-role">5027241105</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="contrib">
+                  <figure>
+                    <img class="contrib-avatar" src="/media/balqis.jpg" alt="Raka Pratama">
+                    <figcaption>
+                      <span class="contrib-name">Balqis Sani Sabilah</span>
+                      <span class="contrib-role">5027241002</span>
+                    </figcaption>
+                  </figure>
+                </li>
+            </ul>
+              <!-- combined contributor grid -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© <span id="year"></span> KPP BMS — Black & Red</div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
