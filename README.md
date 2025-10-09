@@ -12,6 +12,9 @@
 | 6   | Zahra Hafizhah           | 5027241121 |
 
 ### Vercel link
+```c
+https://kpp-bms-kel-3-2025.vercel.app/
+```
 
 ### Figma link
 
