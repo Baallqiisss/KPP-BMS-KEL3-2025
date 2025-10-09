@@ -23,11 +23,11 @@ https://www.figma.com/design/z9L68Gp78XtMFWnFETbF2f/BMS-kel-3?node-id=1-2&t=CcIV
 ```
 
 ### Pembagian pengerjaan
-| No  | Nama                     | Pembagian Tugas         |
-| --- | ----------------------   | ----------------------- |
-| 1   | Balqis Sani Sabilah      | UI Design               |
-| 2   | Kanafira Vanesha Putri   | UI Design &Vercel Deploy|
-| 3   | Fika Arka Nuriyah        | Front-end Website       |
-| 4   | Naila Raniyah Hanan      | Front-end Website       |
-| 5   | Naruna Vicrantyo Putra G | Design                  |
-| 6   | Zahra Hafizhah           | Mengisi Portofolio      |
+| No  | Nama                     | Pembagian Tugas          |
+| --- | ----------------------   | ------------------------ |
+| 1   | Balqis Sani Sabilah      | UI Design                |
+| 2   | Kanafira Vanesha Putri   | UI Design & Vercel Deploy|
+| 3   | Fika Arka Nuriyah        | Front-end Website        |
+| 4   | Naila Raniyah Hanan      | Front-end Website        |
+| 5   | Naruna Vicrantyo Putra G | Design                   |
+| 6   | Zahra Hafizhah           | Mengisi Portofolio       |
